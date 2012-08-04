@@ -1,0 +1,15 @@
+README.txt
+setup.cfg
+setup.py
+lotomidas/__init__.py
+lotomidas.dexterity.egg-info/PKG-INFO
+lotomidas.dexterity.egg-info/SOURCES.txt
+lotomidas.dexterity.egg-info/dependency_links.txt
+lotomidas.dexterity.egg-info/entry_points.txt
+lotomidas.dexterity.egg-info/namespace_packages.txt
+lotomidas.dexterity.egg-info/not-zip-safe
+lotomidas.dexterity.egg-info/paster_plugins.txt
+lotomidas.dexterity.egg-info/requires.txt
+lotomidas.dexterity.egg-info/top_level.txt
+lotomidas/dexterity/__init__.py
+lotomidas/dexterity/tests.py

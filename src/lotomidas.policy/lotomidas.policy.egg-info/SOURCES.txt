@@ -1,0 +1,15 @@
+README.txt
+setup.cfg
+setup.py
+lotomidas/__init__.py
+lotomidas.policy.egg-info/PKG-INFO
+lotomidas.policy.egg-info/SOURCES.txt
+lotomidas.policy.egg-info/dependency_links.txt
+lotomidas.policy.egg-info/entry_points.txt
+lotomidas.policy.egg-info/namespace_packages.txt
+lotomidas.policy.egg-info/not-zip-safe
+lotomidas.policy.egg-info/paster_plugins.txt
+lotomidas.policy.egg-info/requires.txt
+lotomidas.policy.egg-info/top_level.txt
+lotomidas/policy/__init__.py
+lotomidas/policy/tests.py
