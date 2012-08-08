@@ -1,1 +1,3 @@
 setuptools
+z3c.saconfig
+MySQL-python

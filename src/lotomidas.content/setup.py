@@ -25,6 +25,8 @@ setup(name='lotomidas.content',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'z3c.saconfig',
+          'MySQL-python'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
