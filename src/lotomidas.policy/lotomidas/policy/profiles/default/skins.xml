@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- cookie_persistence: change it to True if you want to make the skin cookie
+       persist indefinitely. In the ZMI, this value is known as 'Skin Cookie
+       persistence'. -->
+<object name="portal_skins" default_skin="Wres Theme" allow_any="False" cookie_persistence="False">
+ 
+ <object name="lotomidas_scripts"
+    meta_type="Filesystem Directory View"
+    directory="lotomidas.content:skins/scripts" />
+ <object name="sunburst_theme_images"
+    meta_type="Filesystem Directory View"
+    directory="lotomidas.theme:skins/sunburst_theme/sunburst_images"/>
+ <object name="sunburst_theme_templates"
+    meta_type="Filesystem Directory View"
+    directory="lotomidas.theme:skins/sunburst_theme/sunburst_templates"/>
+ <object name="sunburst_theme_styles"
+    meta_type="Filesystem Directory View"
+    directory="lotomidas.theme:skins/sunburst_theme/sunburst_styles"/>
+
+ <skin-path name="Wres Theme" based-on="Plone Default">
+  <layer name="lotomidas_scripts"
+     insert-after="custom"/>
+  <layer name="sunburst_images"
+     insert-after="lotomidas_scripts"/>
+  <layer name="sunburst_templates"
+     insert-after="sunburst_images"/>
+  <layer name="sunburst_styles"
+     insert-after="sunburst_templates"/>
+ </skin-path>
+
+</object>
+

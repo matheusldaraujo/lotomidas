@@ -5,5 +5,7 @@
 <dependency>profile-lotomidas.content:default</dependency>
 <dependency>profile-lotomidas.dexterity:default</dependency>
 <dependency>profile-plone.app.dexterity:default</dependency>
+<dependency>profile-Products.Clouseau:default</dependency> 
+<dependency>profile-lotomidas.content:default</dependency> 
 </dependencies>
 </metadata>
