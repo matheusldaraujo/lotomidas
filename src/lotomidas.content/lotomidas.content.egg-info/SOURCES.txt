@@ -12,6 +12,5 @@ lotomidas.content.egg-info/paster_plugins.txt
 lotomidas.content.egg-info/requires.txt
 lotomidas.content.egg-info/top_level.txt
 lotomidas/content/__init__.py
-lotomidas/content/testDatabase.py
 lotomidas/content/tests.py
 lotomidas/content/tests/__init__.py
