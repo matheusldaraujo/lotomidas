@@ -1,0 +1,13 @@
+.installed.cfg
+README.html
+adminPassword.txt
+bin/
+bootstrap.py
+lxml_static.cfg
+parts/
+products/
+src/z3c.recipe.staticlxml/
+var/
+zope-versions.cfg
+zopeapp-versions.cfg
+ztk-versions.cfg
