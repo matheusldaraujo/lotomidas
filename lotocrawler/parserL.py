@@ -194,7 +194,7 @@ sqls = loteriaToSql(lotofacil)
 #Connectando ao BD
 print "Connecting to DB..."
 connection = MySQLdb.connect('localhost','root','chronos')
-connection.select_db('loteria')
+connection.select_db('lotomidas')
 cursor = connection.cursor()
 
 #Limpa banco de dados
