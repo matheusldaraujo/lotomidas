@@ -11,3 +11,9 @@ var/
 zope-versions.cfg
 zopeapp-versions.cfg
 ztk-versions.cfg
+*.egg
+*.egg-info/PKG-INFO
+*.egg-info
+.mr.developer.cfg
+PKG-INFO
+develop-eggs
